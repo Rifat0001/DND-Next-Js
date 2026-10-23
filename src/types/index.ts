@@ -59,7 +59,6 @@ export type JourneyStage = {
 
 export type SceneMarker = {
   stageId: number;
-  // x/y are in the 1600x900 scene image coordinates
   x: number;
   y: number;
   partner: string;
